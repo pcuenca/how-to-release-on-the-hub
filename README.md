@@ -32,7 +32,9 @@ for model_id in models:
 
 ## Enable gating programmatically
 
-Use [`update_repo_settings`](https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api#huggingface_hub.HfApi.update_repo_settings). (Sorry, I can't find my script now, but should be similar to the one about repo visibility above).
+~~Use [`update_repo_settings`](https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api#huggingface_hub.HfApi.update_repo_settings).~~
+
+This is now achieved, most times, by adding repos to a gating collection. See [this section](#create-a-collection) for a hint (you don't need to create the collection if it exists, just add the new repos to it).
 
 ## Update metadata
 
